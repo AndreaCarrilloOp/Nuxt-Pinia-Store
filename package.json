@@ -1,0 +1,19 @@
+{
+  "name": "tarea4-nuxt-pinia-tutorial5",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.16.1",
+    "@pinia/nuxt": "^1.0.2",
+    "better-sqlite3": "^13.0.3",
+    "nuxt": "^4.5.2",
+    "pinia": "^4.0.3"
+  }
+}
