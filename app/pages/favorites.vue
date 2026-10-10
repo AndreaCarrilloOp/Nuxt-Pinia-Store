@@ -140,7 +140,10 @@ function changePage(page: number) {
           </button>
         </nav>
 
-        <div v-else class="empty-state">
+        <div
+          v-if="!favoriteBooks.length"
+          class="empty-state"
+        >
           <h2>No hay favoritos</h2>
           <p>Selecciona libros desde el catálogo o desde su detalle.</p>
           <NuxtLink to="/books" class="detail-button">
@@ -153,3 +156,4 @@ function changePage(page: number) {
     <FooterView />
   </div>
 </template>
+
